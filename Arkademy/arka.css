@@ -76,7 +76,7 @@ nav ul li a:hover{
     display: none;
 }
 .menu-mobile a{
-    color: white;
+    color: black;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
@@ -121,14 +121,14 @@ section#box-profile{
     top: 50px;
     margin-left: 30px;
     font-family:  Helvetica, sans-serif;
-    border-right: 1px solid whitesmoke;
+    border-right: 1px solid black;
 }
 .description h1{
     font-size: 32px;
     margin-bottom: 14px;
 }
 .description p{
-    color: rgb(70, 181, 233);
+    color: black;
 }
 .description .button{
     margin-top: 40px;
