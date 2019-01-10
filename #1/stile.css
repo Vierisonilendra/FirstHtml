@@ -1,0 +1,94 @@
+#gambar{
+    height: 100;
+    width: 100;
+}
+
+.navi {
+    background-color: grey;
+    overflow: hidden;
+  }
+
+.navi a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.home a {
+  float: left;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navi a:hover {
+    
+  background-color: rgb(73, 71, 71);
+    border-bottom:solid rgb(82, 223, 69);
+  }
+
+  #home a{
+    background-color: black;
+  }
+
+  table {
+    font-size: 30px;
+    margin-top: 3cm;
+  }
+
+  .padogif{
+    height: 100px;
+    width: 100px;
+    margin-top: 5cm;
+  }
+
+  * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number], input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Style Submit */
+.register {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.register:hover {
+  opacity:1;
+}
+
+
